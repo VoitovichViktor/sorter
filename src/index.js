@@ -43,9 +43,6 @@ class Sorter {
       }
     }
 
-    //if (this.array[indices[i]] > this.array[indices[j]])
-    //if (this.comparator(this.array[indices[i]], this.array[indices[j]) > 0)
-
     for(var i = 0; i < indices.length - 1; i++) {
       for (var j = i; j < indices.length; j++) {
         if (this.comparator(this.array[indices[i]], this.array[indices[j]]) > 0){
